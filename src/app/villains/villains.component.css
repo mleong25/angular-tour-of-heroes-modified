@@ -1,0 +1,90 @@
+/* HeroesComponent's private CSS styles */
+.villains {
+  margin-left: 17%;
+  list-style-type: none;
+  padding: 0;
+  width: 5em;
+  margin-bottom: 20%;
+}
+.villains li {
+  position: relative;
+  cursor: pointer;
+  background-color: #EEE;
+  margin: .8em;
+  padding: .3em 0 .3em 0;
+  height: 1.6em;
+  border-radius: 4px;
+}
+.villains li:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 149, 10);
+  left: .1em;
+}
+.villains a {
+  color: #888;
+  text-decoration: none;
+  position: relative;
+  display: inline-block;
+  width: 250px;
+}
+.villains a:hover {
+  color:#607D8B;
+}
+.villains .badge {
+  display: inline-block;
+  font-size: small;
+  color: white;
+  padding: 0.8em 0.7em 0 0.7em;
+  background-color: #607D8B;
+  line-height: 1em;
+  position: relative;
+  left: -1px;
+  top: -4px;
+  height: 1.8em;
+  min-width: 16px;
+  text-align: right;
+  margin-right: .8em;
+  border-radius: 4px 0 0 4px;
+}
+.search {
+  text-align: center;
+}
+button {
+  background-color: #eee;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+  font-family: Arial;
+}
+button:hover {
+  background-color: #cfd8dc;
+}
+button.delete {
+  position: relative;
+  left: 215px;
+  top: -32px;
+  background-color: gray !important;
+  color: white;
+}
+h2 {
+  text-align: center;
+  color: whitesmoke;
+}
+label {
+  color: whitesmoke;
+}
+input {
+  margin-right: 5px;
+}
+ul {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+li {
+  display: block;
+  color: white;
+}

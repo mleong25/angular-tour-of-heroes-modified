@@ -1,0 +1,14 @@
+<div class="detail" *ngIf="villain">
+  <h2>{{villain.name | uppercase}} Details</h2>
+  <div class="description"><span>Quote: </span>{{villain.description}}</div>
+  <div>
+    <label>Name:
+      <input [(ngModel)]="villain.name" placeholder="name" style="text-align: center"/>
+    </label>
+  </div>
+  <div class="ID"><span>ID: </span>{{villain.id}}</div>
+  <div class="weakness"><span>Weakness: </span>{{villain.weakness}}</div>
+  <div class="counter"><span>Nemesis: </span><!--<a routerLink="/detail/{{hero.id}}"></a>-->{{villain.counter}}</div>
+  <button (click)="goBack()">go back</button>
+  <button (click)="save()">save</button>
+</div>

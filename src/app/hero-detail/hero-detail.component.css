@@ -1,0 +1,62 @@
+/* HeroDetailComponent's private CSS styles */
+  label {
+    display: inline-block;
+    width: 3em;
+    margin: .5em 0;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  input {
+    height: 2em;
+    font-size: 1em;
+    margin-left: -160%;
+    background-color: rgb(205, 225, 255);
+  }
+  button {
+    margin-top: 20px;
+    font-family: Arial;
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+    margin-right: 10px;
+  }
+  button:hover {
+    background-color: #cfd8dc;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #ccc;
+    cursor: auto;
+  }
+  h2 {
+    color: whitesmoke;
+  }
+  .detail {
+    text-align: center;
+    margin-bottom: 20%;
+  }
+  .ID {
+    margin-top: 20px;
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .description {
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .weakness {
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  .counter {
+    color: whitesmoke;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
